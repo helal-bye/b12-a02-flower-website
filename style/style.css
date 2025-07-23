@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    
+}
+nav ul li{
+    list-style: none; 
+    margin-right: 20px;
+}
+nav ul li a{
+       fontsize: 16px;
+       text-decoration: none;
+       color:#252432;
+       fontweight: 700;
+}
