@@ -21,10 +21,13 @@ nav ul li{
     margin-right: 20px;
 }
 nav ul li a{
-       fontsize: 16px;
+       font-size: 16px;
        text-decoration: none;
        color:#252432;
        fontweight: 700;
+}
+.dropdown-flex{
+    display: flex;
 }
 /* responsive for mobile devices */
 @media (max-width: 576px){
