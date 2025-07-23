@@ -26,3 +26,9 @@ nav ul li a{
        color:#252432;
        fontweight: 700;
 }
+/* responsive for mobile devices */
+@media (max-width: 576px){
+    .dropdown-collapse{
+        display: none;
+    }
+}
