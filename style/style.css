@@ -9,6 +9,14 @@
     color: #000000;
     margin-bottom: 20px;
 }
+.btn-primary{
+    padding: 20px 30px;
+    background: #e95a08;
+    width: 100%;
+    border: none;
+    font-weight: 600;
+    color: #FFFFFF;
+}
 .text-color{
     color: #e95a08;
 }
@@ -76,6 +84,31 @@ nav ul li a {
 
 
 }
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 50px 0px;
+    gap: 15px;
+}
+.card{
+    max-width: 270px;
+}
+.card-body{
+    text-align: center;
+    margin-top: 25px;
+}
+.card-title{
+    font-size: 1.37rem;
+    color: #111111;
+    font: 500;
+}
+.price-title{
+    font-size: 1.37rem;
+    color: #111111;
+    font: 700;
+    display: block;
+    margin: 20px 0px;
+}
 
 
 
@@ -105,5 +138,8 @@ nav ul li a {
   }
   .section-description{
     font-size: 0.87rem;
+  }
+  .card-container{
+    grid-template-columns: repeat(2, 1fr);
   }
 }
