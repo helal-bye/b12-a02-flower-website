@@ -43,7 +43,7 @@ nav ul li a {
   font-size: 16px;
   text-decoration: none;
   color: #252432;
-  fontweight: 700;
+  font-weight: 700;
 }
 .dropdown-flex {
   display: flex;
@@ -208,6 +208,26 @@ footer{
   width: 36px;
  
 }
+/* latest deals section start */
+.deals-pic{
+  position: relative;
+}
+.deals-img-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.deals-img-title{
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+.shop-now-btn{
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
 
 
 
