@@ -138,6 +138,54 @@ nav ul li a {
   color: #00000080;
   margin-bottom: 20px;
 }
+/* join section start */
+.join-section-container {
+  background-image: linear-gradient(rgb(0 0 255 / 0.5), rgb(255 255 0 / 0.5)),
+    url("../assets/news-letter-bg.png");
+  height: 533px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 120px;
+}
+.join-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 0px;
+    width: 100%;
+}
+.join-title{
+    font-size: 3.125rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.join-btn{
+    display: flex;
+    justify-content: center;
+}
+.search-btn{
+    flex: 1;
+    padding: 20px;
+    border: none;
+    outline: none;
+
+}
+.join-btn .btn-primary{
+    width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* responsive for mobile devices */
 @media (max-width: 576px) {
@@ -147,7 +195,7 @@ nav ul li a {
   .dropdown-collapse {
     display: none;
   }
-  .flower-and-plants-wapper{
+  .flower-and-plants-wapper {
     flex-direction: column;
   }
   .banner {
@@ -169,7 +217,7 @@ nav ul li a {
   .card-container {
     grid-template-columns: repeat(2, 1fr);
   }
-  .trusted-badge{
+  .trusted-badge {
     display: none;
   }
 }
