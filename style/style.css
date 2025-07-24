@@ -35,18 +35,18 @@ nav {
 nav ul {
   display: flex;
 }
-nav ul li {
+.display-flex{
+  display: flex;
+}
+nav ul  li {
   list-style: none;
   margin-right: 20px;
 }
-nav ul li a {
+nav ul  li a {
   font-size: 16px;
   text-decoration: none;
   color: #252432;
   font-weight: 700;
-}
-.dropdown-flex {
-  display: flex;
 }
 /* Banner section start */
 .banner {
@@ -249,7 +249,7 @@ footer {
   .container {
     margin: 0px 10px;
   }
-  .dropdown-collapse {
+  .display-none{
     display: none;
   }
   .flower-and-plants-wapper {
