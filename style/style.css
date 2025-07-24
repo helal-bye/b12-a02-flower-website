@@ -175,7 +175,39 @@ nav ul li a {
 .join-btn .btn-primary{
     width: 25%;
 }
+footer{
+  padding: 50px 0px;
+  background: #FFFFFF80;
 
+}
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.footer-description{
+  font-size: 1.375rem;
+  font-weight: 400;
+  color: #00000080;
+  max-width: 360px;
+}
+.footer-menu ul li{
+  list-style: none;
+  margin-bottom: 30px;
+}
+.footer-menu ul li a{
+  text-decoration: none;
+  color: #6B7280;
+  font-weight: 400;
+}
+
+.social-icons img{
+  margin-right: 25px;
+  height: 36px;
+  width: 36px;
+ 
+}
 
 
 
@@ -220,4 +252,9 @@ nav ul li a {
   .trusted-badge {
     display: none;
   }
+  .footer-content {
+   
+    align-items: flex-start;
+    flex-direction: column;
+}
 }
